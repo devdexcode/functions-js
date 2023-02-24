@@ -210,3 +210,10 @@ function _AJAX_function_3(target_1,target_2,target_3,admin_ajax_url, action, typ
        
     });
 })(jQuery);
+
+
+/***|Apply CSS Class 'active' to current menu item in Bootstrap5|***/
+document.addEventListener('DOMContentLoaded', function() {
+  var currentItem = document.querySelector('li.current-menu-item');
+  currentItem.classList.add('active');
+});
