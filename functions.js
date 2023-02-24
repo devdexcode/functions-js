@@ -112,6 +112,10 @@ function current_page_is(the_page) {
 
 (function($) {
     $(document).ready(function() {
+/***
+ * HACK FOR BS5 TO WP NAV MENU
+ * **/
+       $('.current-menu-item').addClass('active');
        
 /***
  * AJAX FUNCTION FOR ONE RESPONSE
